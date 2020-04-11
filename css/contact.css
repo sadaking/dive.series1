@@ -1,0 +1,33 @@
+.contact{
+  border-collapse: collapse;
+}
+.contact tr{
+  height: 7rem;
+}
+.contact th{
+  width: 150px;
+  text-align: right;
+}
+.contact td {
+  width: 480px;
+  padding-left: 1rem;
+}
+.contact tr:last-child th {
+  border-color: #B1B1B1;
+}
+input#submit_button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:50%;
+    margin-right:50%;
+    font-size: 18px;
+    padding: 12px 12px;
+    background: #00b3b3;
+    color : #ffffff;
+    line-height: 1em;
+    border: 2px solid #00b3b3;
+}
+
+input#submit_button:hover {
+  opacity: 0.5;
+}
